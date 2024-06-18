@@ -21,7 +21,8 @@ html {
   padding: 0;
   height: auto !important;
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(212, 212, 212, 0.91);
+  /* color: rgba(255, 255, 255, 0.6); */
   font-family: Roboto, sans-serif;
   font-weight: 400;
   line-height: 1.75;
@@ -4955,10 +4956,11 @@ small {
 }
 
 .videoSection h1 span {
-  color: #ffee00;
+  color: #ffee00; 
 }
 .videoSection h1 {
-  font-size: 90px;
+  font-size: 80px;
+  /* font-size: 90px; */
   text-align: center;
 }
 
@@ -5076,8 +5078,14 @@ small {
   text-align: center;
 }
 
+.outCard{
+  height: 100%;
+}
+
 .outCard img {
   border-radius: 20px;
+  height: 100%;
+  object-fit: contain;
 }
 
 .outContent {
@@ -5110,4 +5118,28 @@ small {
 
 .kf-logo {
   display: none;
+}
+
+.foot-media{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.foot-media a{
+  margin-right: 15px;
+}
+
+.rt-dd-location select > option{
+ border: none !important;
+ padding: 1rem !important;
+ color: #fff !important;
+ font-weight: 700 !important;
+ background-color: #000 !important;
+}
+
+.table-booking-form {
+  margin: 0 auto;
+  padding: 0px 45px 45px 45px;
+  background: #090c0f;
 }

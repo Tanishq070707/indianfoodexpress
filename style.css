@@ -1498,9 +1498,10 @@ button.mfp-close:before {
 }
 .kf-f-hours ul li {
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 1rem !important;
   padding-left: 20px;
   color: #fff;
+  /* margin-bottom: 10px; */
 }
 .kf-f-hours ul li:last-child {
   margin-bottom: 0;
@@ -1609,6 +1610,7 @@ button.mfp-close:before {
 }
 .kf-titles {
   width: 100%;
+  margin-top: 2rem;
 }
 .kf-subtitle {
   margin: 0 0 10px 0;
@@ -1912,7 +1914,8 @@ button.mfp-close:before {
 }
 .kf-about-quote {
   margin-top: 35px;
-  padding: 20px;
+  padding: 15px;
+  /* padding: 20px; */
   position: relative;
   font-size: 22px;
   color: #fff;
@@ -1931,9 +1934,11 @@ button.mfp-close:before {
 }
 .kf-about-quote img {
   float: left;
-  width: 95px;
+  width: 65px;
+  /* width: 95px; */
   border-radius: 100%;
   -webkit-border-radius: 100%;
+  /* height: 3em; */
 }
 .kf-about-quote div {
   margin-left: 115px;
@@ -2188,7 +2193,8 @@ button.mfp-close:before {
 .kf-choose-images {
   position: relative;
   width: 100%;
-  height: 350px;
+  height: 100%;
+  /* height: 350px; */
   font-size: 0;
 }
 .kf-choose-images img {
@@ -2201,7 +2207,8 @@ button.mfp-close:before {
   object-position: center;
 }
 .kf-choose-list {
-  margin: 40px 0;
+  margin: 0px 0;
+  /* margin: 40px 0; */
 }
 .kf-choose-list ul {
   margin: 0;
@@ -4956,7 +4963,7 @@ small {
 }
 
 .videoSection h1 span {
-  color: #ffee00; 
+  color: #ffee00;
 }
 .videoSection h1 {
   font-size: 80px;
@@ -5078,8 +5085,15 @@ small {
   text-align: center;
 }
 
-.outCard{
-  height: 100%;
+.outCard {
+  /* height: 100%; */
+  text-align: center;
+  border: 1px solid #ffffff69;
+  background-color: #181818;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 13px;
+  line-height: 20px;
 }
 
 .outCard img {
@@ -5092,6 +5106,11 @@ small {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.outContent h3{
+  margin: 8px 0;
+  font-size: 24px;
 }
 
 .locationIcon {
@@ -5109,7 +5128,8 @@ small {
 }
 
 .chose .icon img {
-  width: 40%;
+  width: 50%;
+  /* width: 40%; */
 }
 
 .locationMap iframe {
@@ -5120,26 +5140,72 @@ small {
   display: none;
 }
 
-.foot-media{
+.foot-media {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
 }
 
-.foot-media a{
+.foot-media a {
   margin-right: 15px;
 }
 
-.rt-dd-location select > option{
- border: none !important;
- padding: 1rem !important;
- color: #fff !important;
- font-weight: 700 !important;
- background-color: #000 !important;
+.rt-dd-location select > option {
+  border: none !important;
+  padding: 1rem !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  background-color: #000 !important;
 }
 
 .table-booking-form {
   margin: 0 auto;
   padding: 0px 45px 45px 45px;
   background: #090c0f;
+  border: 1px solid #ffffff69;
+  border-radius: 10px;
+}
+
+.new-flex-column {
+  display: flex !important;
+}
+
+.new-flex-column .icon {
+  width: 35%;
+}
+
+.reserve-label{
+  margin-bottom: 3px !important;
+}
+
+.green-call-button{
+  width: 60%;
+}
+
+.green-call-button h2{
+  font-size: 30px;
+}
+
+.green-call-button span{
+  font-size: 18px;
+}
+
+.green-call-button div{
+  margin-left: 90px;
+}
+
+.desc .name{
+  margin: 1.5rem 0;
+}
+
+.reserved-fields label{
+  padding-bottom: 0;
+}
+
+.why-choose-box{
+  margin-top: 0 !important;
+}
+
+.kf-faq-item .name .active{
+  color: green !important;
 }
